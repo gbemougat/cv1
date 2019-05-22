@@ -1,0 +1,141 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/***headers styling***/
+
+h1 {
+    line-height: 2;
+    color: #66BFBF;
+    font-size: 50px;
+    margin-top: 50px auto 0 auto;
+    width: 200px;
+    margin: 0 auto 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Cute Font', sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #11999E;
+    font-family: 'Cute Font', cursive;
+    font-size: 2rem;
+}
+/***containers styling***/
+
+.top-container {
+    background-color: grey;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.profession {
+    color: #66BFBF;
+}
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+/***a,p and hr styling***/
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+span {
+    text-decoration: underline;
+}
+/***images styling***/
+
+.profile-image {
+    border-radius: 50%;
+}
+.giphy-img {
+    width: 35%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+.planning-img {
+    width: 35%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+/***Button styling***/
+
+.btn {
+    -moz-box-shadow: inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #caefab;
+    box-shadow: inset 0px 1px 0px 0px #caefab;
+    background-color: #77d42a;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #268a16;
+    display: inline-block;
+    cursor: pointer;
+    color: #306108;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #aade7c;
+}
+.btn:hover {
+    background-color: #5cb811;
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+/****footer styling***/
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
